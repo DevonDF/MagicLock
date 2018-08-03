@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MagicLock:jar">
+    <output-path>$PROJECT_DIR$/../../Development server/plugins</output-path>
+    <root id="archive" name="MagicLock.jar">
+      <element id="module-output" name="MagicLock" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Spigot BuildTools/spigot-1.13.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

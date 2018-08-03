@@ -1,0 +1,27 @@
+name: MagicLock
+version: 1.0
+author: DevonF
+main: GB.Devon.MagicLock.MagicLock
+api-version: 1.13
+
+commands:
+  setowner:
+    description: DEBUG
+  setfriend:
+    description: DEBUG
+  magiclock:
+    description: Give help book
+    usage: /magiclock help
+
+permissions:
+  magicLock.*:
+    children:
+      magicLock.overrideLock: true
+      magicLock.canLock: true
+    default: op
+  magicLock.overrideLock:
+    description: Allows user to override all locks - able to destroy & bypass locks.
+    default: op
+  magicLock.canLock:
+    description: Allows user to be able to lock their containers with magiclock
+    default: false
